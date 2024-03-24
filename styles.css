@@ -1,0 +1,72 @@
+ 
+<style>
+        .container{
+        border:8px solid black;
+        height: 80vh;
+        width:21vw;
+        border-radius: 33px;
+    }
+        
+    
+    .header{
+        border:2px solid #086608c7;
+        height:85px;
+        width:100 px;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+        background-color:green
+    }
+    .h1{
+        color:hsla(0, 0%, 100%, 0.988);
+        position:relative;
+        top:30px;
+        font-family:inherit;
+        left:6px;
+    }
+    .time{
+        color:whitesmoke;
+        position:relative;
+        left:5px;
+        bottom:52px
+    }
+    .search{
+        color:rgb(255, 255, 255);
+        position:relative;
+        bottom:52px;
+        left:228px;
+        
+
+    }
+    .camera1{
+        position:relative;
+        right:19px;
+
+    }
+    .search1{
+        position:relative;
+        right:6px;
+    }
+    
+
+    
+    .battery{
+        color:white;
+        position:relative;
+        bottom:146px;
+        left:220px;
+    }
+    .up{
+        position:relative;
+        bottom:2px;
+        right:10px;
+    }
+    .phone{
+        position:relative;
+        right:9px;
+        
+    }
+    .airplane,.wifi{
+        position:relative;
+        right:9px;
+    </style>    
+  
