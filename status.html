@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WHATSUP UI</title>
+    <title>WHATSUP STATUS</title>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
@@ -181,6 +181,59 @@
         bottom:384px;
         color:black;
        }
+       .statusbar{
+        border:2px solid green;
+        height:600px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        width:320px;
+        height:130px
+        
+
+    }
+    .dots{
+position:relative;
+left:249px;
+top:9px;}
+.statusline1{
+    display:flex;
+    column-gap:2px ;
+    
+}
+  .statusline{
+    border:3px solid green;
+    height:50px;
+    width:50px;
+    border-radius:30px
+    
+  }
+  .z{
+    position:sticky;
+    top:2px; 
+
+  }
+  .channel{
+    border: 2px solid green;
+    height:210px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+  }
+  .channel1{
+    border: 2px solid blue;
+    height:67px
+  }
+  .flex{
+    position:relative;
+    left:230px;
+    top:5px;
+  }
+  .item{
+    border:2px solid yellow;
+    height:30px;
+    width:30p;
+    border-radius:30px;
+  }
     </style>
     </head>
     <body>
@@ -201,64 +254,45 @@
 
                     </ion-icon>
                     <ion-icon class="phone" name="phone-portrait"></ion-icon>
-                    <i class="up">100%</i>  
-                
-                </h4></p>
-                
-            </div>
-            <div class="chatbox">           
-                
-                <a class="link" href="./battu.html">
-                    <div><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGu-PAttBNwxb5izgJMMN4BeSBgwHNffqEcje6Hl_R9w&s" height="50px" width="50px"><i class="name"><b>Battu</b></i>
-                </div></a>
-        
-            <div class="chat">           
-                
-                <a class="link" href="./chat2.html"><div><img class="image" src="https://thebiodiary.com/uploads/bio/barahamanad-1.jpg" height="50px" width="50px">
-                    <i class="name"><b>Gajala-CEO SONIC SOLUTIONS</b></i></div></a>
-            </div>
-            <div class="chat">           
-                <a class="link" href="./chat3.html"><div><img class="image" src="https://imgcdn.ragalahari.com/jun2023/gallery/boyapatirapo/ram-skanda3t.jpg" height="50px" width="50px"><i class="name"><b>Firewall Hacker</b></i></div></a> 
-            </div>
-            <div class="chat">           
-                <a class="link" href="./chat4.html"><div><img class="image" src="https://szcdn.ragalahari.com/oct2016/starzone/sunil-eedu-gold-ehe-photos/sunil-eedu-gold-ehe-photosthumb.jpg" height="50px" width="50px"><i class="name"><b>Seshu</b></i></div></a> 
-             </div>
-             <div class="chat">           
-                <a class="link" href="./chat5.html"><div><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dLj6Tz88p9wlG_144Q042yj5Tz0LEuOHkKu8U4LyJQ&s" height="50px" width="50px"><i class="name"><b>Sambi gaadu
-
-                </b></i></div></a>
-             </div>
-             <div class="chat">           
-                <a class="link" href="./chat6.html"><div><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i class="name"><b>Jilani</b></i></div></a> 
-
-                <div class="chat">           
-                    <a class="link" href="./chat7.html"><div><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_TAPuRFwDBFdvmGmyEm0IIvZWPmVhzeqCwPP4BN8-qbtjlB_jyoFEOtPtJyvjIXjMHg&usqp=CAU" height="50px" width="50px"><i class="name"><b>Soori gaadu</b></i></div></a> 
-             </div>
-             <div class="chat">           
-                <a class="link" href="./chat8.html"><div><img class="image" src="https://i.ytimg.com/vi/0Zz2pczE_IU/maxresdefault.jpg" height="50px" width="50px"><i class="name"><b>Bujji gaadu</b></i></div></a>
-             </div>
-             <div class="chat">           
-                <a class="link" href="./chat9.html"><div><img class="image" src="https://m.media-amazon.com/images/M/MV5BNWI4NDY0NzEtZjU4NS00NTBjLWIwYzAtOGM5ZDkxNTI2MTIxXkEyXkFqcGdeQXVyMjY1MjkzMjE@._V1_.jpg" height="50px" width="50px"><i class="name"><b>Jilebi</b></i></div></a> 
-             </div>
-             <div class="chat">           
-                <a class="link" href="./chat10.html"><div><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFaWMz4D4S9LCxtzPIYGfHAc4CLYQLDPWMKEX4BqoEnXArNnlHtNkKDSCyoIzZJXuIYQ4&usqp=CAU" height="50px" width="50px"><i class="name"><b>chari</b></i></div> </a>
-             </div>
-         </div>
-           
+                    <i class="up">100%</i></h4></p>
         </div>
-    <div class="status">
+        <div class="statusbar"><b><i Class="z" style="margin-left:10px">Status</i><ion-icon class="dots" name="ellipsis-vertical-outline"></ion-icon></b> 
+         <div class="statusline1">   
+       <div class="statusline"><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGu-PAttBNwxb5izgJMMN4BeSBgwHNffqEcje6Hl_R9w&s" height="50px" width="50px"><i>Battu</i></div>
+        <div class="statusline"><img class="image" src="https://szcdn.ragalahari.com/oct2016/starzone/sunil-eedu-gold-ehe-photos/sunil-eedu-gold-ehe-photosthumb.jpg" height="50px" width="50px"><i>Seshu</i></div>
+        <div class="statusline"><img class="image" src="https://m.media-amazon.com/images/M/MV5BNWI4NDY0NzEtZjU4NS00NTBjLWIwYzAtOGM5ZDkxNTI2MTIxXkEyXkFqcGdeQXVyMjY1MjkzMjE@._V1_.jpg" height="50px" width="50px"><i>Jilebi</i></div>
+         <div class="statusline"><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFaWMz4D4S9LCxtzPIYGfHAc4CLYQLDPWMKEX4BqoEnXArNnlHtNkKDSCyoIzZJXuIYQ4&usqp=CAU" height="50px" width="50px"><i>Chari</i></div>
+         <div class="statusline"><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i>Jilani</i></div>
+        <div class="statusline"><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i>Bujji gaadu</i></div>
+        <div class="statusline"><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i>Sambi gaadu</i></div>
+        <div class="statusline"><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i>Chandu</i></div>
+        <div class="statusline"><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i>Firewall Hacker</i></div>
+        <div class="statusline"><img class="image" src="https://th-i.thgim.com/public/news/cities/Hyderabad/uk9a1r/article29512100.ece/alternates/FREE_1200/HY25-VENUMADHAV" height="50px" width="50px"><i>Gajala-CEO SONOC SLUTIONS</i></div>
+
+    </div> 
+        </div>
+        <div class="channel">
+            <div class="channel1"><i><b>Channels<ion-icon class="flex" name="add-outline"></ion-icon></b></i>
+            <p class="item"><img src="https://w0.peakpx.com/wallpaper/286/289/HD-wallpaper-chennai-super-king-logo-chennai-super-king-logo-ipl.jpg" height="30" width="30">CHENNAI SUPER KINGS</p></div>
+            <div class="channel1"><img src="https://i.pinimg.com/736x/7c/9c/a9/7c9ca9633bb0cd83fbd9f054e3d850e5.jpg" height="69px" width="50px"><i>MUMBAI INDIANS</i></div>
+            <div class="channel1"><img src="https://pbs.twimg.com/media/Fru5mz6XgAIdP3X.jpg" height="50px"> SUN RISERS HYDERABAD</div>
+        
+            </div>
+        
+        <div class="status">
         <div class="statusicon"></div>
         <p>
-            <ion-icon class="notifications" name="chatbox-outline" style="font-size:20px"></ion-icon>
-            <i class="chats" ><h3><Col></Col>Chats</h3></i>
-            <a href="./status.html" style="text-decoration:none"><ion-icon class="chatbubbels" name="chatbubbles-outline" style="font-size:50px"></ion-icon>
+             <a href="./index.html" style="text-decoration:none"><ion-icon class="notifications" name="chatbox-outline" style="font-size:20px"></ion-icon>
+            <i class="chats" ><h3><Col></Col>Chats</h3></i></a>
+            <a href="./index.html" style="text-decoration:none"><ion-icon class="chatbubbels" name="chatbubbles-outline" style="font-size:50px"></ion-icon>
             <i class="status1"><h3>Status</h3></i></a>
-            <a href="" style="text-decoration:none"><ion-icon class="communities" name="people-outline" style="font-size:50px"></ion-icon>
+            <a href="./communities.html" style="text-decoration:none"><ion-icon class="communities" name="people-outline" style="font-size:50px"></ion-icon>
                 <i class="communities1"><h3>Communities</h3></i></a>
-            <a href=""style="text-decoration:none"><ion-icon class="calls" name="call-outline" style="font-size:50px"></ion-icon>
+            <a href="./calls.html"style="text-decoration:none"><ion-icon class="calls" name="call-outline" style="font-size:50px"></ion-icon>
                 <i class="calls1"><h3>Calls</h3></i></a>
         </p>
-    </div>    
+    </div>
+
          
         
 
