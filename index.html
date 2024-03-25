@@ -10,7 +10,7 @@
     
     .container{
         border:8px solid black;
-        height: 70vh;
+        height: 76vh;
         width:320px;
         border-radius: 33px;
         
@@ -116,10 +116,74 @@
         overflow-y: scroll;
         scrollbar-width: none;
        }
-    
+       .status{
+        border:2px solid black;
+        height:94px;
+        border-bottom-left-radius:15px;
+        border-bottom-right-radius:15px;
+       }
+       .notifications{
+        border:2px solid WHITE;
+        background-color: #e4d8d8;
+        border-radius:30px;
+        height:50px;
+        width:50px;
+        margin-left:10px;
+        position:relative;
+        bottom:10px;
+       }
+       .chats{
+        position:relative;
+        left:20px;
+        bottom:35px;
+
+       }
+       .chatbubbels{
+        border:2px solid white;
+        border-radius:30px;
+        background-color: #e4d8d8;
+        position:relative;
+        left:85px;
+        bottom:123px;
+       }
+       .status1{
+        position:relative;
+        left:90px;
+        bottom:150px;
+        color:black;
+
+       }
+       .communities{
+        border:2px solid white;
+        background-color: #e4d8d8;
+        border-radius:30px;
+        position:relative;
+        left:170px;
+        bottom:238px;
+       }
+       .communities1{
+        position:relative;
+        left:147px;
+        bottom:266px;
+        color:black;
+       }
+       .calls{
+        border:2px solid white;
+        background-color: #e4d8d8;
+        border-radius:30px;
+        position:relative;
+        left:255px;
+        bottom:358px;
+       }
+       .calls1{
+        position:relative;
+        left:261px;
+        bottom:384px;
+        color:black;
+       }
     </style>
     <body>
-        <div class="container">
+    <div class="container">
           <div class="header"><i><h3><P><P class="whatsapp">WhatsApp</P></h3></i>
         
                 <h5><i><P class="time">10:10
@@ -181,8 +245,21 @@
          </div>
            
         </div>
+    <div class="status">
+        <div class="statusicon"></div>
+        <p>
+            <ion-icon class="notifications" name="chatbox-outline" style="font-size:20px"></ion-icon>
+            <i class="chats" ><h3><Col></Col>Chats</h3></i>
+            <a href="" style="text-decoration:none"><ion-icon class="chatbubbels" name="chatbubbles-outline" style="font-size:50px"></ion-icon>
+            <i class="status1"><h3>Status</h3></i></a>
+            <a href="" style="text-decoration:none"><ion-icon class="communities" name="people-outline" style="font-size:50px"></ion-icon>
+                <i class="communities1"><h3>Communities</h3></i></a>
+            <a href=""style="text-decoration:none"><ion-icon class="calls" name="call-outline" style="font-size:50px"></ion-icon>
+                <i class="calls1"><h3>Calls</h3></i></a>
+        </p>
+    </div>    
          
-           
+        
 
             
 </body>
