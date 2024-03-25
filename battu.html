@@ -7,6 +7,7 @@
     <link rel="style" type=text/css href="styles.css">
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
      .container{
         border:8px solid black;
@@ -107,11 +108,93 @@ left:5px;
         
     }
     .chatbox{
+        border:px solid black;
+        height:50vh;
+        width:auto;
         overflow-y:scroll;
         scrollbar-width:none;
+
     }
-   
+    .chat1{
+        
+        position:sticky;
+        top:5px;
+        margin-left:140px;
+    }
+    .icon{
+     border:2px solid #e4d8d8;
+     background-color: #e4d8d8;
+     height:3px;
+     width:2px;
+     border-radius:20px;
+    }
+    .text{
+       
+        position:relative;
+        left:180px;
+        font-size:12px;
     
+    }
+    .text1{
+        font-size:12px;
+        padding:5px;
+    }
+    .te{
+        border:1px solid ;
+        height: 26px;
+        width: 120px;
+        border-radius:15px;
+        padding:5px;
+        background-color:aliceblue;
+    }
+    .message{
+        border:2px solid black;
+        height:40px;
+        width:270px;
+        border-radius:50px ;
+        margin-left:3px;
+        position:relative;
+        bottom:px;
+
+    }
+    .messagebox{
+        color:;
+        position:relative;
+        bottom:110px;
+        left:180px;
+        
+    }
+    .messagetext{
+        position: relative;
+        bottom:63px;
+        left:28px;
+    }
+    .ion{
+        position: relative;
+        bottom:13px;
+        left:6px;
+    }
+    .greenmicrophone{
+        border:2px solid green;
+        background-color: green;
+        height:38px;
+        width:38px;
+        border-radius:300px;
+        position:relative;
+        left:276px;
+        bottom:43px;
+
+    }
+    .mic{
+        color:white;
+        position:relative;
+        left:7px;
+        bottom:12px;
+    }
+    
+
+    
+
 
 </style>
 </head>
@@ -135,35 +218,45 @@ left:5px;
         <i class="up">100%</i></h4></p>
         </div>
     <div class="chatbox">
-         <div class="chat1">Friday
-        <p class="text">Hi</p>
-        <p class="text1">Hello</p>
-        <p class="text">How are you?</p>
-        <p class="text1">Fyn</p>
-        <p class="text">Hi</p>
-        <p class="text1">Hello</p>
-        <p class="text">How are you?</p>
-        <p class="text1">Fyn</p>
-    </div>
-    <div class="chat1">Yesterday
-        <p class="text">Hi</p>
-        <p class="text1">Hello Battu</p>
-        <p class="text">How are you?</p>
-        <p class="text1">Fyn you?</p>
-        <p class="text">bane vunnanu</p>
-        <p class="text1">ok</p>
-        <p class="text">inkenti</p>
-        <p class="text1">pelliki ravali nuvvu compulsory gaa</p>
-    </div>
-    <div class="chat1">Today
-        <p class="text">evari pelliki</p>
-        <p class="text1">naa pellike</p>
-        <p class="text">nuv ala anoddu chadu</p>
-        
-        <p class="text"> vunnanu hurt avuthanu</p>
+         <div class="chat1"><i class="icon">Friday</i></div>
+        <i><p class="text te">Hi  <sub>8:10pm</sub></p>
+        <p class="text1 te">Hello <sub>8:11pm</sub></p>
+        <p class="text te">How are you? <sub>8:11pm</sub></p>
+        <p class="text1 te">Fyn <sub>8:11pm</sub></p>
+        <p class="text te">Hi <sub>8:11pm</sub></p>
+        <p class="text1 te">Hello <sub>8:11pm</sub></p>
+        <p class="text te">How are you? <sub>8:11pm</sub></p>
+        <p class="text1 te">Fyn <sub>8:12pm</sub></p></i>
+    <div class="chat1"><i class="icon">Yesterday</i></div>
+        <i><p class="text te">Hi <sub>8:11am</sub></p>
+        <p class="text1 te">Hello Battu <sub>8:11am</sub></p>
+        <p class="text te">How are you?  <sub>8:13am</sub></p>
+        <p class="text1 te">Fyn you? <sub>8:13am</sub></p>
+        <p class="text te">bane vunnanu <sub>8:14am</sub></p>
+        <p class="text1 te">ok <sub>8:15am</sub></p>
+        <p class="text te">inkenti <sub>8:15am</sub></p>
+        <p class="text1 te">pelliki ravali nuvvu compulsory gaa <sub>8:15am</sub></p></i>
+
+    <div class="chat1"><i class="icon">Today</i></div>
+        <i><p class="text te">evari pelliki <sub>10:11am</sub></p>
+        <p class="text1 te">naa pellike <sub>10:11am</sub></p>
+        <p class="text te">nuv ala anoddu chandu  <sub>10:11am</sub> </p>
+        <p class="text te"> vunnanu hurt avuthanu  <sub>10:12am</sub></p>
+        <p class="text1 te"> joke chesa <sub>10:12am</sub></p>
+        <p class="text te">danyavadhalu <sub>10:14am</sub></p></i>
     
-    </div>
 </div> 
+<div class="message">
+    <h2><ion-icon class="ion" name="happy-outline"></ion-icon></h2><i class="messagetext" style="font-size:23px">Message</i>
+    <h2><p class="messagebox"><ion-icon name="link-outline"></ion-icon>
+        <ion-icon name="send-outline"></ion-icon>
+        <ion-icon name="camera-outline"></ion-icon>
+    </p></h2>
+
+</div>
+<div class="greenmicrophone">
+    <h2><ion-icon class="mic" name="mic-outline"></ion-icon><h2></h2>
+</div>
 </div>
 </body>
 </html>
