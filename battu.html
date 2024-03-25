@@ -10,12 +10,11 @@
 <style>
      .container{
         border:8px solid black;
-        height: 80vh;
-        width:21vw;
+        height: 70vh;
+        width:320px;
         border-radius: 33px;
-        overflow-y: scroll;
-        scrollbar-width: none;
-    }
+     }
+       
     .header{
         border:2px solid #086608c7;
         height:90px;
@@ -107,7 +106,10 @@ left:5px;
         right:9px;
         
     }
-    scrollbar{
+    .chatbox{
+        overflow-y:scroll;
+        scrollbar-width:none;
+    }
    
     
 
@@ -115,7 +117,6 @@ left:5px;
 </head>
 <body>
     <div class="container">
-        <span>
         <div class="header"><p class="combine"><a href="./index.html" style="text-decoration:none ;"><ion-icon class="arrow" name="arrow-back-outline"></ion-icon></a>
         <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGu-PAttBNwxb5izgJMMN4BeSBgwHNffqEcje6Hl_R9w&s" height="50px" width="50px"></p>
     <h4 class="battu"><i><b>Battu</b></i></h4>
@@ -132,8 +133,9 @@ left:5px;
         <ion-icon class="phone" name="airplane"></ion-icon>
         <ion-icon class="phone" name="phone-portrait"></ion-icon>
         <i class="up">100%</i></h4></p>
-        </div></span>
-    <div class="chat1">Friday
+        </div>
+    <div class="chatbox">
+         <div class="chat1">Friday
         <p class="text">Hi</p>
         <p class="text1">Hello</p>
         <p class="text">How are you?</p>
@@ -161,9 +163,7 @@ left:5px;
         <p class="text"> vunnanu hurt avuthanu</p>
     
     </div>
- 
+</div> 
 </div>
-
-        
 </body>
 </html>
